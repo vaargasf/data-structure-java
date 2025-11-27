@@ -1,10 +1,10 @@
-import java.util.ArrayList;
+import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
-
-        ArrayList <Integer> idades = new ArrayList<Integer>();
-        idades.add(10);
-        idades.add(35);
+        Stack<String> stack = new Stack<String>();
+        stack.push(" Pagina 1");
+        stack.push(" Pagina 2");
+        System.out.println(stack.pop());
     }
 }
